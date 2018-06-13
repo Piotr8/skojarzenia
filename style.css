@@ -1,0 +1,66 @@
+.red{
+	background: red;
+}
+
+.green{
+	background:green;
+}
+
+.blue{
+	background:blue;
+}
+
+.orange{
+	background: orange;
+}
+
+.violet{
+	background: violet;
+}
+
+.box{
+	width:200px;
+	height:100px;
+	display:block;
+}
+
+.container{
+	max-width: 200px;
+	overflow: hidden;
+
+}
+
+.top .box,
+.middle .box,
+.bottom .box{
+	display:inline-block;
+}
+
+.top,
+.middle,
+.bottom{
+	height: 100px;
+	width: 1200px;
+	position:relative;
+	overflow: hidden;
+	margin:0 auto;
+	margin-bottom: 1px;
+	transition:all .4s ease-in-out;
+
+}
+
+.prev{
+	color:#000;
+	position: absolute;
+	left:-20px;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.next{
+	color:#000;
+	position: absolute;
+	right:-20px;
+	top:50%;
+	transform:translateY(-50%);
+}
